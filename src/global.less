@@ -1,0 +1,137 @@
+@import '~antd/lib/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.globalSpin {
+  width: 100%;
+  margin: 40px 0 !important;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #6d6d6d;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #6d6d6d;
+}
+
+body {
+
+  .ant-modal-confirm-body .ant-modal-confirm-title{
+    font-weight: 600;
+  }
+
+  .ant-modal-confirm-body .ant-modal-confirm-content{
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .myEditor{
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+
+    .bf-content {
+      height:300px;
+    }
+
+    .headings-dropdown,.bf-font-size-dropdown,.bf-line-height-dropdown,.bf-letter-spacing-dropdown{
+      min-width:auto;
+    }
+  }
+}
+
+.editorModal{
+  .ant-form-item{
+    .ant-col-5{
+      width: 12.5%;
+    }
+
+    .ant-col-17{
+      width: 82.166667%;
+    }
+
+  }
+  
+  .bf-controlbar .separator-line{
+    margin: 6px 5px;
+  }
+  .bf-controlbar .control-item{
+    margin: 3px 0 0 3px;
+  }
+}
+
+.ant-notification-notice-with-icon .ant-notification-notice-message{
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}

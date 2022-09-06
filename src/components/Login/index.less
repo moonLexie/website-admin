@@ -1,0 +1,88 @@
+@import '~antd/lib/style/themes/default.less';
+
+.login {
+  :global {
+    .ant-tabs .ant-tabs-bar {
+      margin-bottom: 24px;
+      text-align: center;
+      border-bottom: 0;
+    }
+
+    .ant-form-item {
+      margin: 0 2px 24px;
+    }
+  }
+
+  .getCaptcha {
+    display: block;
+    width: 100%;
+  }
+
+  .icon {
+    margin-left: 16px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .other {
+    margin-top: 24px;
+    line-height: 22px;
+    text-align: left;
+
+    .register {
+      float: right;
+    }
+  }
+
+  .prefixIcon {
+    color: @disabled-color;
+    font-size: @font-size-base;
+  }
+
+  .submit {
+    width: 100%;
+    margin-top: 24px;
+  }
+  
+
+  /* 验证码 */
+  .vcodewrap {
+    width: 100%;
+    overflow: hidden;
+    font-size: 8px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+  }
+
+  .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(255,255,255,0.95) ;
+    opacity: 0.8;
+    line-height: 25px;
+    color: black;
+    z-index: 1;
+    border-radius: 5px;
+  }
+  .itemStr {
+    float: left;
+    margin-left: 15px;
+  }
+  .bgi {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+  }
+}
