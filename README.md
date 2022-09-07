@@ -36,9 +36,9 @@ Less | CSS 预处理语言 | 3.9.0
 ## 本地部署
 
 - 通过git下载源码
-- npm install 安装依赖包
-- npm start 本地运行
-- npm build 构建打包
+- yarn 安装依赖包
+- yarn start 本地运行
+- yarn build 构建打包
 - 项目访问路径：http://localhost:8000
 - 账号密码：admin/ant.design
 
