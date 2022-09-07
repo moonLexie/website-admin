@@ -18,8 +18,9 @@ React | 构建用户界面的 JavaScript 库 | 16.7.0
 Ant Design Pro | 开箱即用的中台前端/设计解决方案 | 2.2.1
 Ant Design | 企业级UI设计语言和React UI库 | 3.13.0
 Axios | 一个基于 promise 的网络请求库 | 0.18.0
-Moment | JavaScript日期库 | 2.24.0
 Less | CSS 预处理语言 | 3.9.0
+Moment | JavaScript日期库 | 2.24.0
+Braft Editor | 美观好用的React富文本编辑器 | 2.2.9
 
 ## 浏览器支持
 现代浏览器和IE11
